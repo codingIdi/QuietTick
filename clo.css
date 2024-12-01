@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.rope {
+  top: -30px;
+  position: relative;
+  width: 75px; /* Adjust to match your image width */
+  height: 260px; /* Length of the rope */
+  background: url("knot-outline-symbol.png") repeat-y center center; /* Use your image */
+  background-size: contain; /* Ensure the image scales properly */
+}
 
 
 body, html {
@@ -30,14 +38,6 @@ background-color:   #C8B69B;
   transform-origin: top center; /* Swing from the top center */
 }
 
-.rope {
-  top: -30px;
-  position: relative;
-  width: 75px; /* Adjust to match your image width */
-  height: 260px; /* Length of the rope */
-  background: url("knot-outline-symbol.png") repeat-y center center; /* Use your image */
-  background-size: contain; /* Ensure the image scales properly */
-}
 
 .shadow{
   position: relative;
